@@ -69,7 +69,7 @@ class Configuration():
                 v = list(vals)[i].__name__
             else:
                 v = str(list(vals)[i])
-            res += '%30s: %s\n' % (str(keys[i]), v)
+            res += '%30s: %s\n' % (str(list(keys)[i]), v)
         return res
 
     def save(self, file_name):
