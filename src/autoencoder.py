@@ -66,9 +66,9 @@ class Configuration():
         res = ''
         for i in index:
             if callable(list(vals)[i]):
-                v = vals[i].__name__
+                v = list(vals)[i].__name__
             else:
-                v = str(vals[i])
+                v = str(list(vals)[i])
             res += '%30s: %s\n' % (str(keys[i]), v)
         return res
 
