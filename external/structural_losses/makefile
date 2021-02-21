@@ -1,5 +1,6 @@
-nvcc=/usr/local/cuda-9.0/bin/nvcc
-cudalib=/usr/local/cuda-9.0/lib64
+nvcc = /usr/local/cuda/bin/nvcc
+cudalib =  /usr/local/cuda/lib64
+#tensorflow = /usr/local/lib/python3.6/dist-packages/tensorflow/include
 nsync=/usr/local/lib/python2.7/dist-packages/tensorflow/include/external/nsync/public
 TF_INC=/usr/local/lib/python2.7/dist-packages/tensorflow/include
 TF_LIB=/usr/local/lib/python2.7/dist-packages/tensorflow/
