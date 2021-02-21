@@ -65,7 +65,7 @@ class Configuration():
         index = np.argsort(keys)
         res = ''
         for i in index:
-            if callable(vals[i]):
+            if callable(list(vals)[i]):
                 v = vals[i].__name__
             else:
                 v = str(vals[i])
